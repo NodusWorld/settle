@@ -2,7 +2,7 @@
 import { useState, useEffect, useCallback } from "react";
 
 const SUPABASE_URL = "https://typvhhdgecychmcmstls.supabase.co";
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR5cHZoaGRnZWN5Y2htY21zdGxzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM5MjM4MDIsImV4cCI6MjA1OTQ5OTgwMn0.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR5cHZoaGRnZWN5Y2htY21zdGxzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM5MjM4MDIsImV4cCI6MjA1OTQ5OTgwMn0";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR5cHZoaGRnZWN5Y2htY21zdGxzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU0NTQ0MjEsImV4cCI6MjA5MTAzMDQyMX0.NL6-rq1B5DfFahn8XiFpiRVm4FvOmYs6KMpizId07Qk";
 
 // ── Supabase client (no SDK needed — raw fetch) ───────────────────────────────
 const sb = {
